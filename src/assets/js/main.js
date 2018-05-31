@@ -8,6 +8,9 @@
 //= ../../../bower_components/bootstrap/js/dist/popover.js
 //= ../../../bower_components/bootstrap/js/dist/collapse.js
 //= ../../../bower_components/bootstrap/js/dist/dropdown.js
+//= ../../../bower_components/bootstrap/js/dist/alert.js
+//= ../../../bower_components/bootstrap/js/dist/button.js
+//= ../../../bower_components/bootstrap/js/dist/carousel.js
 //= ../../../bower_components/clamp-js/clamp.js
 //= ../../../bower_components/fancyBox/dist/jquery.fancybox.js
 
