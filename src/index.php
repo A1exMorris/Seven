@@ -19,7 +19,7 @@
 <!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
     <script src="assets/js/main.js"></script>
 </head>
-<body>
+<body style="padding-top: 200px">
 
 <!--Навигация с корзиной и лого-->
 <nav class="navbar navbar-expand-md navbar-dark bg-secondary fixed-top h4" style="font-family: cheltenham">
@@ -51,18 +51,18 @@
         </ul>
 
     </div>
-    <div class="container" id="secondNavbar">
-        <div class="collapse navbar-collapse" id="contactNavbar">
-            <ul class="nav navbar-nav navbar-left">
-                <li> <a id="contacts" href="contact.php"><h3>Контакты:</h3></a> </li>
-                <li> <a id="contacts" href="contact.php"><h3>8(921)327-62-18</h3></a></li>
-                <li> <a id="contacts" href="contact.php"><h3>8(812)725-55-72</h3></a></li>
-                <li><a id="contacts" href="mailto:info@royalwood.pw"><h3> info@royalwood.pw</h3></a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
 
+</nav>
+<div class="container" id="secondNavbar">
+    <div class="fixed-bottom" id="contactNavbar">
+        <ul class="nav navbar-nav navbar-left">
+            <li> <a id="contacts" href="contact.php"><h3>Контакты:</h3></a> </li>
+            <li> <a id="contacts" href="contact.php"><h3>8(921)327-62-18</h3></a></li>
+            <li> <a id="contacts" href="contact.php"><h3>8(812)725-55-72</h3></a></li>
+            <li><a id="contacts" href="mailto:info@royalwood.pw"><h3> info@royalwood.pw</h3></a></li>
+        </ul>
+    </div>
+</div>
 <!--Слайдер для показа новинок-->
 <div class="container">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -115,12 +115,12 @@
 </div>
 <!--Основная часть - категории-->
 <div class="container text-center">
-<div class="row text">
+<div class="row text pb-3">
     <div class="col-3">
-        <div class="card">
+        <div class="card bg-transparent" style="border-color: white">
             <img class="card-img-top rounded-circle" src="assets/i/bird.jpg" alt="product_image">
-            <div class="card-footer card-img-overlay">
-                <div href="#" class="btn-lg btn-secondary btn-block">Евровагонка</div>
+            <div class="card-footer card-img-overlay bg-transparent" style="border-color: white">
+                <div href="#" class="btn-lg btn-secondary btn-block rounded-circle">Евровагонка</div>
             </div>
         </div>
     </div>
